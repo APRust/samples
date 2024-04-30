@@ -1,5 +1,5 @@
 [package]
-name = "use_borrowed_types"
+name = "ch_2_1_use_borrowed_types_for_arguments"
 version = "0.1.0"
 edition = "2021"
 
