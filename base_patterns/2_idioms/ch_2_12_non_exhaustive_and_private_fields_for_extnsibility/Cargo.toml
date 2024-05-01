@@ -1,0 +1,8 @@
+[package]
+name = "ch_2_12_non_exhaustive_and_private_fields_for_extnsibility"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
