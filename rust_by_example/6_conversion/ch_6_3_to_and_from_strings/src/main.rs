@@ -20,7 +20,10 @@ fn main() {
     println!("{}", circle.to_string());
 
     // PARSING A STRING
+    // use the parse function and either to arrange for type inference
     let parsed: i32 = "5".parse().unwrap();
+
+    // specify the type to parse using the 'turbofish' syntax
     let turbo_parsed = "10".parse::<i32>().unwrap();
 
     let sum = parsed + turbo_parsed;
