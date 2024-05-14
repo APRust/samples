@@ -1,0 +1,6 @@
+[package]
+name = "ch_10_4_super_and_self"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

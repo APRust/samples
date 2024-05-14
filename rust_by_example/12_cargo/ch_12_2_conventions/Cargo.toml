@@ -1,0 +1,7 @@
+[package]
+name = "ch_12_2_conventions"
+version = "0.1.0"
+edition = "2021"
+default-run = "my_other_bin"
+
+[dependencies]

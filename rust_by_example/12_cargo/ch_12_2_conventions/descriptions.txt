@@ -1,0 +1,33 @@
+Suppose that we wanted to have two binaries in the same project, though. What then?
+
+It turns out that cargo supports this. The default binary name is main, 
+as we saw before, but you can add additional binaries by placing them in a bin/ directory:
+
+foo
+├── Cargo.toml
+└── src
+    ├── main.rs
+    └── bin
+        └── my_other_bin.rs
+
+To tell cargo to only compile or run this binary, 
+we just pass cargo the --bin my_other_bin flag, where my_other_bin is the name 
+of the binary we want to work with.
+
+For run/build and etc. for addition bin:
+'cargo run --bin my_other_bin'
+
+
+For standard running with command 'cargo run':
+
+[package]
+default-run = "NAME_OF_BIN_CRATE"
+
+Example:
+...
+[package]
+ name = "ch_12_2_conventions"
+ version = "0.1.0"
+ edition = "2021"
+ default-run = "ch_12_2_conventions" // or name any bin crate
+...

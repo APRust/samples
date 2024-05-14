@@ -1,0 +1,6 @@
+[package]
+name = "ch_14_8_1_problem_without_associated_types"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

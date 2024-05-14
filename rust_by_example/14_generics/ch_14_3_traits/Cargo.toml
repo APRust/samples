@@ -1,0 +1,6 @@
+[package]
+name = "ch_14_3_traits"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
