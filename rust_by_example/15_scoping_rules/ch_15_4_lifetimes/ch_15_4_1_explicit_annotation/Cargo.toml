@@ -1,0 +1,6 @@
+[package]
+name = "ch_15_4_1_explicit_annotation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

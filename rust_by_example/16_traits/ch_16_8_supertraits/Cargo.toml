@@ -1,0 +1,6 @@
+[package]
+name = "ch_16_8_supertraits"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

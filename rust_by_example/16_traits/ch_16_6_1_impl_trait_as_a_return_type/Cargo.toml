@@ -1,0 +1,6 @@
+[package]
+name = "ch_16_6_1_impl_trait_as_a_return_type"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
