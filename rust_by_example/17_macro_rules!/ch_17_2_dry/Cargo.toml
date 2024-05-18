@@ -1,0 +1,6 @@
+[package]
+name = "ch_17_2_dry"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
