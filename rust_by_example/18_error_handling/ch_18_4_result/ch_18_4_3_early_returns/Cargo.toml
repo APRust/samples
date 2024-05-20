@@ -1,0 +1,6 @@
+[package]
+name = "ch_18_4_3_early_returns"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
