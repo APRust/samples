@@ -1,0 +1,6 @@
+[package]
+name = "ch_18_5_5_wrapping_errors"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

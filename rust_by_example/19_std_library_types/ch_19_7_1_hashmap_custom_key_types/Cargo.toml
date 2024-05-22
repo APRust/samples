@@ -1,0 +1,6 @@
+[package]
+name = "ch_19_7_1_hashmap_custom_key_types"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
