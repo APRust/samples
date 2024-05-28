@@ -1,0 +1,10 @@
+[package]
+name = "ch_21_4_development_dependencies"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# stadard crate data is left out
+[dev-dependencies]
+pretty_assertions = "1"
