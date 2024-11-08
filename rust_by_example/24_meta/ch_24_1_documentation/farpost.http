@@ -1,0 +1,120 @@
+### GET request to example server
+# curl 'https://www.farpost.ru/vladivostok/rabota/resume/?_origquery=%F0%E5%F4+%EC%E5%F5%E0%ED%E8%EA&ajax=1&async=1&city=1&fieldSetHash=&page=3&query=%F0%E5%F4+%EC%E5%F5%E0%ED%E8%EA&status=actual'
+#  -H 'accept: application/json, text/javascript, */*; q=0.01'
+#  -H 'accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+#  -H 'cookie: ring=a2c014bedde13aee031319bdd3197160; _ga=GA1.1.434530591.1728462843; city=1; boobs=v4.local.QrV2EVma_VEtPutVSCfc2Qu0xoilKAaDjPRFc7ZYT_K4rkyP24Z06D6ffW_jc8fdTf7dh6HYCCuMD4XsKDyHTIJBCKli5h1QQHB6SRAX_4EPcIW4tRbmFKMSNYLiUdf23KJ2aGapV5d1YuESl700omSHrUJWbqYX7jB6-t3It3IWQH0KdC-a06Sb4E8Jqs5Ov2fGpuv6VVOEjqcQPKkAPnD-CWys7vA.eyJ1c2VySWQiOjMyNzYxNzAzfQ.u1f3e767; pony=little%20my; login=32761703; PHPSESSID=a2c014bedde13aee031319bdd3197160; protected_deals_top_line=0; _ga_G0RWKN84TQ=GS1.1.1728990597.8.1.1728996432.1.0.0; _ga_4Z77EHRZZW=GS1.1.1728995199.8.1.1728996432.25.0.0; ring_session=1.7.1728462877.1728990630.1728996532.BVQRApT68aJyQbd%2F5J33H%2FpEPnjrYxAJkAQ81UYukfQ%3D'
+#  -H 'priority: u=1, i'
+#  -H 'referer: https://www.farpost.ru/vladivostok/rabota/resume/+/%D0%A0%D0%B5%D1%84%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA/?query=%D1%80%D0%B5%D1%84+%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA&page=3'
+#  -H 'sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"'
+#  -H 'sec-ch-ua-arch: "x86"'
+#  -H 'sec-ch-ua-bitness: "64"'
+#  -H 'sec-ch-ua-full-version: "129.0.6668.90"'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'sec-ch-ua-model: ""'
+#  -H 'sec-ch-ua-platform: "Windows"'
+#  -H 'sec-ch-ua-platform-version: "10.0.0"'
+#  -H 'sec-fetch-dest: empty'
+#  -H 'sec-fetch-mode: cors'
+#  -H 'sec-fetch-site: same-origin'
+#  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36' \
+GET https://www.farpost.ru/vladivostok/rabota/resume/?_origquery=%F0%E5%F4+%EC%E5%F5%E0%ED%E8%EA&ajax=1&async=1&city=1&
+    fieldSetHash=&page=1&query=%F0%E5%F4+%EC%E5%F5%E0%ED%E8%EA&status=actual
+accept: application/json, text/javascript, */*; q=0.01
+accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie: ring=a2c014bedde13aee031319bdd3197160; _ga=GA1.1.434530591.1728462843; city=1; boobs=v4.local.QrV2EVma_VEtPutVSCfc2Qu0xoilKAaDjPRFc7ZYT_K4rkyP24Z06D6ffW_jc8fdTf7dh6HYCCuMD4XsKDyHTIJBCKli5h1QQHB6SRAX_4EPcIW4tRbmFKMSNYLiUdf23KJ2aGapV5d1YuESl700omSHrUJWbqYX7jB6-t3It3IWQH0KdC-a06Sb4E8Jqs5Ov2fGpuv6VVOEjqcQPKkAPnD-CWys7vA.eyJ1c2VySWQiOjMyNzYxNzAzfQ.u1f3e767; pony=little%20my; login=32761703; PHPSESSID=a2c014bedde13aee031319bdd3197160; protected_deals_top_line=0; _ga_G0RWKN84TQ=GS1.1.1728990597.8.1.1728996432.1.0.0; _ga_4Z77EHRZZW=GS1.1.1728995199.8.1.1728996432.25.0.0; ring_session=1.7.1728462877.1728990630.1728996532.BVQRApT68aJyQbd%2F5J33H%2FpEPnjrYxAJkAQ81UYukfQ%3D
+priority: u=1, i
+referer: https://www.farpost.ru/vladivostok/rabota/resume/+/%D0%A0%D0%B5%D1%84%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA/?query=%D1%80%D0%B5%D1%84+%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA&page=3
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+sec-ch-ua-arch: "x86"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-model: ""
+sec-ch-ua-platform: "Windows"
+sec-ch-ua-platform-version: "10.0.0"
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: same-origin
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+
+#> {%
+#    client.global.set("itemsCount", response.body.itemsCount);
+#    console.log(response.body.feed)
+#
+#%}
+
+> {%
+        // // const xmlStr = response.body.feed;
+        // // const doc = new DOMParser().parseFromString(xmlStr, "application/xml");
+        // //
+        // // console.log(doc.getElementById("a"))
+        // // console.log(doc.getElementById("b"))
+        // // console.log(doc.getElementsByClassName("test"))
+        // console.log(doc.getElementsByClassName("bull-item bull-item_inline"))
+        // console.log(doc.getElementsByName("x-foo"))
+
+       const html = response.body.feed;
+       //  const html = "lkjklkjjj.table\"aaaa\"1111test";
+        const test = "AaaaBabbC";
+        // const regex = '(?<=table).*(?>=test).'
+        const regex = /(?<=data-bulletin-id=\")[0-9]+(?=\" class=\"bull-item bull-item_inline\"><div class=\"bull-item__content-wrapper)/g;
+
+        // const regex = 'table(?s)(.*)test';
+        client.global.set("itemsCount", html.match(regex))
+
+
+
+%}
+
+###
+
+###
+
+
+###
+
+# curl 'https://www.farpost.ru/bulletin/55052839/print'
+#  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+#  -H 'accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+#  -H 'cookie: ring=a2c014bedde13aee031319bdd3197160; _ga=GA1.1.434530591.1728462843; city=1; boobs=v4.local.QrV2EVma_VEtPutVSCfc2Qu0xoilKAaDjPRFc7ZYT_K4rkyP24Z06D6ffW_jc8fdTf7dh6HYCCuMD4XsKDyHTIJBCKli5h1QQHB6SRAX_4EPcIW4tRbmFKMSNYLiUdf23KJ2aGapV5d1YuESl700omSHrUJWbqYX7jB6-t3It3IWQH0KdC-a06Sb4E8Jqs5Ov2fGpuv6VVOEjqcQPKkAPnD-CWys7vA.eyJ1c2VySWQiOjMyNzYxNzAzfQ.u1f3e767; pony=little%20my; login=32761703; protected_deals_top_line=0; _ga_4Z77EHRZZW=GS1.1.1728985755.6.1.1728988076.60.0.0; _ga_G0RWKN84TQ=GS1.1.1728985756.7.1.1728988076.60.0.0; ring_session=1.6.1728462877.1728985793.1728988120.JdLfZq6I6Zs%2BujYiGiKl3RGatQ6ojlu5IZE0%2B%2BvBnQ8%3D'
+#  -H 'priority: u=0, i'
+#  -H 'referer: https://www.farpost.ru/vladivostok/rabota/resume/refmehanik-55052839.html?'
+#  -H 'sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"'
+#  -H 'sec-ch-ua-arch: "x86"'
+#  -H 'sec-ch-ua-bitness: "64"'
+#  -H 'sec-ch-ua-full-version: "129.0.6668.90"'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'sec-ch-ua-model: ""'
+#  -H 'sec-ch-ua-platform: "Windows"'
+#  -H 'sec-ch-ua-platform-version: "10.0.0"'
+#  -H 'sec-fetch-dest: document'
+#  -H 'sec-fetch-mode: navigate'
+#  -H 'sec-fetch-site: same-origin'
+#  -H 'sec-fetch-user: ?1'
+#  -H 'upgrade-insecure-requests: 1'
+#  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36'
+#/vladivostok/rabota/resume/otdelochnik-universal-80862525.html
+GET https://www.farpost.ru/bulletin/{{itemsCount}}/print
+accept: application/json, text/javascript, */*; q=0.01,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie: ring=a2c014bedde13aee031319bdd3197160; _ga=GA1.1.434530591.1728462843; city=1; boobs=v4.local.QrV2EVma_VEtPutVSCfc2Qu0xoilKAaDjPRFc7ZYT_K4rkyP24Z06D6ffW_jc8fdTf7dh6HYCCuMD4XsKDyHTIJBCKli5h1QQHB6SRAX_4EPcIW4tRbmFKMSNYLiUdf23KJ2aGapV5d1YuESl700omSHrUJWbqYX7jB6-t3It3IWQH0KdC-a06Sb4E8Jqs5Ov2fGpuv6VVOEjqcQPKkAPnD-CWys7vA.eyJ1c2VySWQiOjMyNzYxNzAzfQ.u1f3e767; pony=little%20my; login=32761703; protected_deals_top_line=0; _ga_4Z77EHRZZW=GS1.1.1728985755.6.1.1728988076.60.0.0; _ga_G0RWKN84TQ=GS1.1.1728985756.7.1.1728988076.60.0.0; ring_session=1.6.1728462877.1728985793.1728988120.JdLfZq6I6Zs%2BujYiGiKl3RGatQ6ojlu5IZE0%2B%2BvBnQ8%3D
+priority: u=0, i
+referer: https://www.farpost.ru/vladivostok/rabota/resume/refmehanik-55052839.html?
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+sec-ch-ua-arch: "x86"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-full-version: "129.0.6668.90"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-model: ""
+sec-ch-ua-platform: "Windows"
+sec-ch-ua-platform-version: "10.0.0"
+sec-fetch-dest: document
+sec-fetch-mode: navigate
+sec-fetch-site: same-origin
+sec-fetch-user: ?1
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+test: {{itemsCount}}
+
+###
+
+GET https://httpbin.org/get

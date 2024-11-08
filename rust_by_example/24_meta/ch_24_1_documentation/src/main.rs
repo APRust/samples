@@ -13,7 +13,7 @@
 // When running rustdoc, these are the comments that get compiled into documentation.
 // They are denoted by a ///, and support Markdown.
 
-#![crate_name = "doc"]
+// #![crate_name = "doc"]
 
 /// A human being is represented here
 pub struct Person {

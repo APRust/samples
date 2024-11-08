@@ -28,10 +28,7 @@ struct Cooked(Food);
 // Peeling food. If there isn't any, then return `None`.
 // Otherwise, return the peeled food.
 fn peel(food: Option<Food>) -> Option<Peeled> {
-    match food {
-        None => None,
-        Some(food) => Some(Peeled(food)),
-    }
+    Some(Peeled(food?))
 }
 
 // Chopping food. It there isn't any, then return `None`.
