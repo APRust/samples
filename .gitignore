@@ -1,4 +1,6 @@
 *target/
 *.idea/
 /rustlings/*
+rustlings/
+*rustlings/
 /training/
