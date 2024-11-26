@@ -1,0 +1,6 @@
+[package]
+name = "ch_1_learning_the_basics"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
