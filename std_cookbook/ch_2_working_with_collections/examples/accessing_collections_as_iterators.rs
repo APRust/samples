@@ -1,5 +1,3 @@
-use std::ops::Index;
-
 #[allow(unused_doc_comments)]
 fn main() {
     let names = vec!["Joe", "Miranda", "Alice"];
@@ -121,15 +119,15 @@ fn main() {
     {
         println!("The index first country start with 'I': {:?}", country);
     }
-    
+
     // Check if at least one item satisfies a condition
     let are_any = countries.iter().any(|c| c.len() == 5);
     println!("Is the at least country with five letters? {:?}", are_any);
-    
+
     // Check if ALL items satisfy a condition
-    let are_all= countries.iter().all(|c| c.len() == 5);
+    let are_all = countries.iter().all(|c| c.len() == 5);
     println!("Is the ALL countries with five letters? {:?}", are_all);
-    
+
     /// Useful operations for numeric items:
     let sum: i32 = (1..11).sum();
     let product: i32 = (1..11).product();
@@ -139,7 +137,7 @@ fn main() {
         their product is {}.",
         sum, product
     );
-    
+
     let max = (1..11).max();
     let min = (1..11).min();
     if let Some(max) = max {
@@ -148,35 +146,56 @@ fn main() {
     if let Some(min) = min {
         println!("They have a smallest number and it is: {}", min)
     }
-    
-    /// Combine iterators:
-    
-    
-    /// Apply functions to all items:
-    
-    
-    /// The real strength of iterators comes from combining them:
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
-    println!()
+    /// Combine iterators:
+    // Combine an iterator with itself, making it infinite
+    // When it reaches its end, it starts again
+    let some_numbers: Vec<_> = (1..4).cycle().take(10).collect();
+    println!("Some numbers: {:?}", some_numbers);
+
+    // Combine two iterators by putting them after another
+    let some_numbers: Vec<_> = (1..4).chain(10..14).collect();
+    println!("Some numbers: {:?}", some_numbers);
+
+    // Zip two iterators together by grouping their first items
+    // together, their second items together, etc.
+    let swiss_post_codes = [8957, 5000, 5034];
+    let swiss_towns = ["Spreitenbach", "Aarau", "Suhr"];
+    let zipped: Vec<_> = swiss_post_codes.iter().zip(swiss_towns).collect();
+    println!("zipped: {:?}", zipped);
+
+    // Because zip is lazy, you can use two infine ranges
+    let zipped: Vec<_> = (b'A'..)
+        .zip(1..)
+        .take(10)
+        .map(|(ch, num)| (ch as char, num))
+        .collect();
+    println!("zipped: {:?}", zipped);
+
+    /// Apply functions to all items:
+    // Change's the item's types
+    let numbers_as_strings: Vec<_> = (1..11).map(|x| x.to_string()).collect();
+    println!("numbers_as_strings: {:?}", numbers_as_strings);
+
+    // Access all items
+    println!("First ten squares:");
+    (1..11).for_each(|x| print!("{} ", x * x));
+    println!();
+
+    // filter and map items at the same time!
+    let squares: Vec<_> = (1..50)
+        .filter_map(|x| if x % 3 == 0 { Some(x * x) } else { None })
+        .collect();
+    println!(
+        "Squares of all numbers under 50 that are divisible by 3: {:?}",
+        squares
+    );
+
+    /// The real strength of iterators comes from combining them:
+    // Retrieve the entire in lower and uppercase:
+    let alphabet: Vec<_> = (b'A'..b'z' + 1) // Start as u8
+        .map(|e| e as char)
+        .filter(|e| e.is_alphabetic())
+        .collect();
+    println!("alphabet: {:?}", alphabet);
 }
