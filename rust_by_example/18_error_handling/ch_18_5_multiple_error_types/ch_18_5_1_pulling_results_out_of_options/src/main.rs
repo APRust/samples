@@ -19,14 +19,12 @@ fn main() {
     println!("The first doubled is {:?}", double_first_one(&empty));
     println!("The first doubled is {:?}", double_first_one(&strings));
 
-    
     // - Result<Option<i32>, ParseIntError>
 
     println!("\nExample with 'Result<Option<i32>, ParseIntError>...");
     println!("The first doubled is {:?}", double_first_two(&numbers));
     println!("The first doubled is {:?}", double_first_two(&empty));
     println!("The first doubled is {:?}", double_first_two(&strings));
-    
 }
 
 fn double_first_two(vec: &Vec<&str>) -> Result<Option<i32>, ParseIntError> {
